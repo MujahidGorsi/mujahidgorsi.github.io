@@ -1,6 +1,15 @@
 var sectionIdArray = ["all", "logo-design", "post-design", "packaging-design", "3d-product-design", "banner-design", "print-design", "illustration", "flyer-design"];
 
 (async () => {
+    $.fn.randomize = function (selector) {
+        var $elems = selector ? $(this).find(selector) : $(this).children();
+        for (var i = $elems.length; i >= 0; i--) {
+            $(this).append($elems[Math.random() * i | 0]);
+        }
+
+        return this;
+    }
+
     $.getJSON('../../assets/data/data.json', (data) => {
         sectionIdArray.forEach(x => {
             $('#designs-section').append(`
@@ -16,12 +25,14 @@ var sectionIdArray = ["all", "logo-design", "post-design", "packaging-design", "
             }
             this.renderDesigns("all", design);
         });
+
+        $('#all #design-list').randomize();
     });
 })();
 
 renderDesigns = (sectionId, design) => {
     $(`#${sectionId} #design-list`).append(`
-        <div class="col-1-5">
+        <div class="col-1-5 ${design.linkId}" id="${design.linkId}-${design.id}">
             <a class="design-clicked" onclick="getDesignDetails(${design.id})">
                 <figure class="gallery-image-home mb-30">
                     <img class="img" src="${design.image}"/>

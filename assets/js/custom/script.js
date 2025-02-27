@@ -1,0 +1,46 @@
+var sectionIdArray = ["all", "logo-design", "post-design", "packaging-design", "3d-product-design", "banner-design", "print-design", "illustration", "flyer-design"];
+
+(async () => {
+    $.getJSON('../../assets/data/data.json', (data) => {
+        sectionIdArray.forEach(x => {
+            $('#designs-section').append(`
+                <section class="home-tow-gallery pt-80 pb-20" id=${x}>
+                   <div class="row" id="design-list"></div>
+                </section>
+            `);
+        });
+
+        $.each(data.portfolioDesign, (i, design) => {
+            if (design.linkId !== "all") {
+                this.renderDesigns(design.linkId, design);
+            }
+            this.renderDesigns("all", design);
+        });
+    });
+})();
+
+renderDesigns = (sectionId, design) => {
+    $(`#${sectionId} #design-list`).append(`
+        <div class="col-1-5">
+            <a class="design-clicked" onclick="getDesignDetails(${design.id})">
+                <figure class="gallery-image-home mb-30">
+                    <img class="img" src="${design.image}"/>
+                    <figcaption>
+                        <span class="design-type">${design.type}</span>
+                        <h4 class="design-item-name">${design.shortName}</h4>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+    `);
+}
+
+getDesignDetails = (id) => {
+    $.getJSON('../../assets/data/data.json', (data) => {
+        $.each(data.portfolioDesign, (i, design) => {
+            if (design.id == id) {
+                window.location.href = `design-details.html?id=${encodeURIComponent(design.id)}`;
+            }
+        });
+    });
+};

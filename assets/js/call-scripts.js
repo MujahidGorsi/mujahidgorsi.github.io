@@ -1,21 +1,26 @@
-import "/js/vendor/jquery-3.6.0.min.js";
-import "/js/vendor/modernizr-3.5.0.min.js";
-import "/js/custom/script.js";
-import "/js/popper.min.js";
-import "/js/bootstrap.min.js";
-import "/js/slick.min.js";
-import "/js/ajax-form.js";
-import "/js/paroller.js";
-import "/js/wow.min.js";
-import "/js/js_isotope.pkgd.min.js";
-import "/js/imagesloaded.min.js";
-import "/js/parallax.min.js";
-import "/js/jquery.waypoints.min.js";
-import "/js/jquery.counterup.min.js";
-import "/js/jquery.scrollUp.min.js";
-import "/js/jquery.meanmenu.min.js";
-// import "/js/swiper.min.js";
-import "/js/parallax-scroll.js";
-import "/js/jquery.magnific-popup.min.js";
-import "/js/element-in-view.js";
-import "/js/main.js";
+let scripts = [
+    "/assets/js/vendor/modernizr-3.5.0.min.js",
+    "/assets/js/popper.min.js",
+    "/assets/js/bootstrap.min.js",
+    "/assets/js/slick.min.js",
+    "/assets/js/ajax-form.js",
+    "/assets/js/paroller.js",
+    "/assets/js/wow.min.js",
+    "/assets/js/js_isotope.pkgd.min.js",
+    "/assets/js/imagesloaded.min.js",
+    "/assets/js/parallax.min.js",
+    "/assets/js/jquery.waypoints.min.js",
+    "/assets/js/jquery.counterup.min.js",
+    "/assets/js/jquery.scrollUp.min.js",
+    "/assets/js/jquery.meanmenu.min.js",
+    "/assets/js/parallax-scroll.js",
+    "/assets/js/jquery.magnific-popup.min.js",
+    "/assets/js/element-in-view.js",
+    "/assets/js/main.js",
+];
+
+scripts.forEach(src => {
+    let script = document.createElement("script");
+    script.src = src;
+    document.body.appendChild(script);
+});

@@ -1,12 +1,12 @@
 var sectionIdArray = ["all", "logo-design", "post-design", "packaging-design", "3d-product-design", "banner-design", "print-design", "illustration", "flyer-design"];
 
 (async () => {
+
     $.fn.randomize = function (selector) {
         var $elems = selector ? $(this).find(selector) : $(this).children();
         for (var i = $elems.length; i >= 0; i--) {
             $(this).append($elems[Math.random() * i | 0]);
         }
-
         return this;
     }
 
@@ -47,10 +47,9 @@ renderDesigns = (id, sectionId, design) => {
 }
 
 getDesignDetails = (id) => {
-    console.log(`id clicked --- ${id}`)
     $.getJSON('../../assets/data/data.json', (data) => {
         $.each(data.portfolioDesign, (i, design) => {
-            if (id == id) {
+            if (i == id) {
                 window.location.href = `design-details.html?id=${encodeURIComponent(id)}`;
             }
         });

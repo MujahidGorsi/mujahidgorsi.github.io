@@ -21,19 +21,19 @@ var sectionIdArray = ["all", "logo-design", "post-design", "packaging-design", "
 
         $.each(data.portfolioDesign, (i, design) => {
             if (design.linkId !== "all") {
-                this.renderDesigns(design.linkId, design);
+                this.renderDesigns(i, design.linkId, design);
             }
-            this.renderDesigns("all", design);
+            this.renderDesigns(i, "all", design);
         });
 
         $('#all #design-list').randomize();
     });
 })();
 
-renderDesigns = (sectionId, design) => {
+renderDesigns = (id, sectionId, design) => {
     $(`#${sectionId} #design-list`).append(`
-        <div class="col-1-5 ${design.linkId}" id="${design.linkId}-${design.id}">
-            <a class="design-clicked" onclick="getDesignDetails(${design.id})">
+        <div class="col-1-5 ${design.linkId}" id="${design.linkId}-${id}">
+            <a class="design-clicked" onclick="getDesignDetails(${id})">
                 <figure class="gallery-image-home mb-30">
                     <img class="img" src="${design.image}"/>
                     <figcaption>
@@ -47,10 +47,11 @@ renderDesigns = (sectionId, design) => {
 }
 
 getDesignDetails = (id) => {
+    console.log(`id clicked --- ${id}`)
     $.getJSON('../../assets/data/data.json', (data) => {
         $.each(data.portfolioDesign, (i, design) => {
-            if (design.id == id) {
-                window.location.href = `design-details.html?id=${encodeURIComponent(design.id)}`;
+            if (id == id) {
+                window.location.href = `design-details.html?id=${encodeURIComponent(id)}`;
             }
         });
     });

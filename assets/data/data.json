@@ -433,8 +433,21 @@
       "tags": "3D Design, Coffee, Retro, Kitchen, Appliance",
       "date": "March 4, 2025",
       "category": "3D Product Design"
+    },
+    {
+      "linkId": "3d-product-design",
+      "shortName": "Tactical <strong>Backpack</strong>",
+      "name": "Modular Tactical Backpack Design",
+      "image": "assets/img/gallery/3D/3d-img07.jpg",
+      "detailImage": "assets/img/gallery/3D/3d-in-protfolio-img07.jpg",
+      "type": "3D Product Design",
+      "shortDescription": "A rugged tactical backpack with modular storage compartments.",
+      "heading": "Design Highlights:",
+      "description": "<strong>Military-Grade Durability</strong> - Built to withstand extreme conditions. <br> <strong>Modular Storage</strong> - Multiple compartments for maximum utility. <br> <strong>Functional Aesthetics</strong> - Clean lines and rugged appeal.",
+      "tags": "3D Design, Backpack, Tactical, Outdoor, Modular",
+      "date": "March 4, 2025",
+      "category": "3D Product Design"
     }
-
 
   ]
 }

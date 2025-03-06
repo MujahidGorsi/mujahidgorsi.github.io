@@ -587,6 +587,76 @@
   "tags": "Billboard, Advertising, Nature, Kids, Outdoor Activities",
   "date": "March 6, 2025",
   "category": "Billboard Design"
+},
+{
+  "linkId": "flyer-design",
+  "shortName": "Birthday Flyer",
+  "name": "Aleen's Birthday Party Flyer",
+  "image": "assets/img/gallery/flyerDesign/flyer-img01.jpg",
+  "detailImage": "assets/img/gallery/flyerDesign/flyer-in-protfolio-img01.jpg",
+  "type": "Flyer Design",
+  "shortDescription": "A charming flyer for Aleen's birthday party.",
+  "heading": "Design Highlights:",
+  "description": "<strong>Playful Typography</strong> - Adds a festive feel. <br> <strong>Monochrome Theme</strong> - Keeps it simple yet elegant. <br> <strong>Custom Illustrations</strong> - Enhances the birthday vibe.",
+  "tags": "Flyer, Birthday, Invitation, Party, Design",
+  "date": "March 6, 2025",
+  "category": "Flyer Design"
+},
+{
+  "linkId": "flyer-design",
+  "shortName": "School Flyer",
+  "name": "Back to School Flyer",
+  "image": "assets/img/gallery/flyerDesign/flyer-img02.jpg",
+  "detailImage": "assets/img/gallery/flyerDesign/flyer-in-protfolio-img02.jpg",
+  "type": "Flyer Design",
+  "shortDescription": "A vibrant flyer for back-to-school promotions.",
+  "heading": "Design Highlights:",
+  "description": "<strong>Bright Colors</strong> - Captures attention instantly. <br> <strong>Engaging Icons</strong> - Simplifies information. <br> <strong>Clean Layout</strong> - Ensures readability.",
+  "tags": "Flyer, School, Education, Promotion, Design",
+  "date": "March 6, 2025",
+  "category": "Flyer Design"
+},
+{
+  "linkId": "flyer-design",
+  "shortName": "Education Flyer",
+  "name": "Back to School 2045 Flyer",
+  "image": "assets/img/gallery/flyerDesign/flyer-img03.jpg",
+  "detailImage": "assets/img/gallery/flyerDesign/flyer-in-protfolio-img03.jpg",
+  "type": "Flyer Design",
+  "shortDescription": "A modern flyer for educational programs.",
+  "heading": "Design Highlights:",
+  "description": "<strong>Infographic Style</strong> - Presents data effectively. <br> <strong>Balanced Color Palette</strong> - Maintains a professional look. <br> <strong>Informative Icons</strong> - Enhances understanding.",
+  "tags": "Flyer, Education, School, Modern, Design",
+  "date": "March 6, 2025",
+  "category": "Flyer Design"
+},
+{
+  "linkId": "flyer-design",
+  "shortName": "Construction Flyer",
+  "name": "Dream Home Construction Flyer",
+  "image": "assets/img/gallery/flyerDesign/flyer-img04.jpg",
+  "detailImage": "assets/img/gallery/flyerDesign/flyer-in-protfolio-img04.jpg",
+  "type": "Flyer Design",
+  "shortDescription": "A professional flyer for construction and home building services.",
+  "heading": "Design Highlights:",
+  "description": "<strong>Bold Geometric Layout</strong> - Captures attention effectively. <br> <strong>Professional Imagery</strong> - Establishes credibility. <br> <strong>Service-Oriented Icons</strong> - Enhances readability.",
+  "tags": "Flyer, Construction, Home Building, Professional, Design",
+  "date": "March 6, 2025",
+  "category": "Flyer Design"
+},
+{
+  "linkId": "flyer-design",
+  "shortName": "Menu Flyer",
+  "name": "Rustic Restaurant Menu Flyer",
+  "image": "assets/img/gallery/flyerDesign/flyer-img05.jpg",
+  "detailImage": "assets/img/gallery/flyerDesign/flyer-in-protfolio-img05.jpg",
+  "type": "Flyer Design",
+  "shortDescription": "A charming, hand-drawn menu flyer for a rustic restaurant.",
+  "heading": "Design Highlights:",
+  "description": "<strong>Hand-Drawn Illustrations</strong> - Adds a personal and rustic feel. <br> <strong>Minimalist Layout</strong> - Ensures easy readability. <br> <strong>Vintage Aesthetic</strong> - Enhances the restaurant's character.",
+  "tags": "Flyer, Restaurant, Menu, Vintage, Hand-Drawn, Rustic",
+  "date": "March 6, 2025",
+  "category": "Flyer Design"
 }
  
   ]

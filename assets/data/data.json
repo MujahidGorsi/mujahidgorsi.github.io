@@ -657,6 +657,48 @@
   "tags": "Flyer, Restaurant, Menu, Vintage, Hand-Drawn, Rustic",
   "date": "March 6, 2025",
   "category": "Flyer Design"
+},
+{
+  "linkId": "print-design",
+  "shortName": "Epic T-Shirt",
+  "name": "Epic Sh*t T-Shirt Design",
+  "image": "assets/img/gallery/printDesign/print-img01.jpg",
+  "detailImage": "assets/img/gallery/printDesign/print-in-protfolio-img01.jpg",
+  "type": "T-Shirt Design",
+  "shortDescription": "A bold T-shirt design with a powerful message.",
+  "heading": "Design Highlights:",
+  "description": "<strong>Bold Typography</strong> - Makes a strong statement. <br> <strong>Monochrome Palette</strong> - Simple yet effective. <br> <strong>Casual Appeal</strong> - Perfect for everyday wear.",
+  "tags": "T-Shirt, Apparel Design, Typography, Bold, Streetwear",
+  "date": "March 6, 2025",
+  "category": "Print Design"
+},
+{
+  "linkId": "print-design",
+  "shortName": "University Flyer",
+  "name": "University Course Flyer",
+  "image": "assets/img/gallery/printDesign/print-img02.jpg",
+  "detailImage": "assets/img/gallery/printDesign/print-in-protfolio-img02.jpg",
+  "type": "Flyer Design",
+  "shortDescription": "A vibrant flyer promoting university courses.",
+  "heading": "Design Highlights:",
+  "description": "<strong>Bright Colors</strong> - Grabs attention instantly. <br> <strong>Informative Layout</strong> - Details about courses and offers. <br> <strong>Modern Style</strong> - Suitable for young audiences.",
+  "tags": "Flyer, Print Design, University, Promotion, Modern",
+  "date": "March 6, 2025",
+  "category": "Print Design"
+},
+{
+  "linkId": "print-design",
+  "shortName": "Adventure T-Shirt",
+  "name": "Adventure Themed T-Shirt",
+  "image": "assets/img/gallery/printDesign/print-img03.jpg",
+  "detailImage": "assets/img/gallery/printDesign/print-in-protfolio-img03.jpg",
+  "type": "T-Shirt Design",
+  "shortDescription": "A colorful T-shirt design for outdoor enthusiasts.",
+  "heading": "Design Highlights:",
+  "description": "<strong>Illustrative Style</strong> - Features nature and camping elements. <br> <strong>Vibrant Colors</strong> - Captures the spirit of adventure. <br> <strong>Nostalgic Vibe</strong> - Appeals to travelers and explorers.",
+  "tags": "T-Shirt, Adventure, Outdoors, Illustration, Colorful",
+  "date": "March 6, 2025",
+  "category": "Print Design"
 }
  
   ]

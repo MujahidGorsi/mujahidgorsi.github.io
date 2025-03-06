@@ -1,12 +1,12 @@
 var headerItems = [
     { id: 0, linkId: "all", name: "All" },
     { id: 1, linkId: "logo-design", name: "Logo Design" },
-    { id: 2, linkId: "post-design", name: "post Design" },
+    // { id: 2, linkId: "post-design", name: "post Design" },
     { id: 3, linkId: "packaging-design", name: "Packaging Design" },
     { id: 4, linkId: "3d-product-design", name: "3d Product Design" },
     { id: 5, linkId: "banner-design", name: "Banner Design" },
     { id: 6, linkId: "print-design", name: "Print Pesign" },
-    { id: 7, linkId: "illustration", name: "Illustration" },
+    // { id: 7, linkId: "illustration", name: "Illustration" },
     { id: 8, linkId: "flyer-design", name: "Flyer Design" },
 ];
 

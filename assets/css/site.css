@@ -1,3 +1,9 @@
+.centered-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .description>strong {
     color: #777 !important;
     line-height: 2 !important;
